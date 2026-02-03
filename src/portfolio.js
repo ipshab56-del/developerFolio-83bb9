@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Computer Science student 🚀 with strong foundation in data structures, algorithms, and full-stack development. Building projects with Python, Flask, JavaScript and modern web technologies."
   ),
   resumeLink:
-    "https://ipshaportfolio.netlify.app/", // Your portfolio website
+    "/resume.html", // Link to your resume file
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -111,7 +111,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Saraswati Degree Vidya Mandir",
-      logo: require("./assets/images/stanfordLogo.png"), // Using existing logo as placeholder
+      logo: require("./assets/images/harvardLogo.png"), // Using existing logo as placeholder
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2023 - 2026",
       desc: "Currently pursuing Bachelor's degree with focus on data structures, algorithms, and object-oriented programming concepts.",
